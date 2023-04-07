@@ -1,7 +1,6 @@
 {
   "name": "calculator-svelte",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,11 +8,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^1.1.0",
-    "svelte": "^3.52.0",
-    "vite": "^3.2.3"
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "svelte": "^3.58.0",
+    "vite": "^4.2.1"
   },
   "dependencies": {
-    "mathjs": "11.4.0"
+    "mathjs": "11.8.0"
   }
 }

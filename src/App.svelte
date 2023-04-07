@@ -2,11 +2,12 @@
 	import { evaluate } from 'mathjs';
 	import Button from './components/Button.svelte';
 	import BoxButton from './components/BoxButton.svelte';
-	import { dataButtons } from './data/dataButtons.js';
 
 	let input = '';
+	
+	const dataButtons = ['1', '2', '3', '+', '4', '5', '6', '-', '7', '8', '9', '*', '=', '0', '.', '/', 'Clear'];
 
-	const handleInput = (value) => {
+	const handleInput = value => {
 		input += value;
 	};
 
@@ -37,9 +38,9 @@
 			class='calculator-input'
 			bind:value={input}
 		/>
-		{#each dataButtons as data (data.text)}
+		{#each dataButtons as char}
 			<Button
-				text={data.text}
+				text={char}
 				addValue={addInput}
 			/>
 		{/each}
