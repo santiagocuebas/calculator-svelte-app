@@ -1,4 +1,4 @@
-# freeCodeCamp Testimonials
+# freeCodeCamp Calculator
 
 Hello! This is an application developed with Svelte, an interactive calculator that performs the four basic arithmetic operations (addition, subtraction, multiplication and division).
 
